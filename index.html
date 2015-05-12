@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Require js demo</title>
+        <style>
+        	html{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+        	h1{padding:0;margin:0;}
+        	.subHeading{font-size:70%;}
+        </style>
+    </head>
+    <body>
+        <h1>Requirejs</h1>
+		<em class ="subHeading">based on : <a href="https://gist.github.com/samloomes/7881703" target="_blank">https://gist.github.com/samloomes/7881703</a></em>
+        <p>This page loads javascript behaviors asynchronously based on a <em><b>data-behavior</b></em> attribute.</p>
+        <hr>
+        
+        <div id ="page-content" data-behavior='showIntialContent'>
+        	<!--container for initial content-->
+		</div>
+		
+		<div class="button-container" data-behavior="revealButton"></div>
+		
+		<div class="imageHolder">
+
+		</div>
+    </body>
+    <script type="text/javascript" src="scripts/libraries/require.js" data-main="scripts/app.js"></script>
+
+</html>
