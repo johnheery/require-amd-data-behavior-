@@ -19,7 +19,6 @@ define(['jquery'], function($) {
                  
         };
 
-        
 
         this.init = function() {
             revealButton();
